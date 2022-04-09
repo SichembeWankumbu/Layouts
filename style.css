@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Box
+{
+    height: 100vh;
+    background-image: url("Desert.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.Inner_Box
+{
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgb(255,255,255,0.4);
+    box-shadow:0 15px 20px rgb(0,0,0,.2);
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 2px; 
+}
+.Inner_Box h1
+{
+    font-size: 45px;
+}
+.Inner_Box p
+{
+    margin: 10px;
+    font-size: 18px;
+}
+.Student-Box
+{
+    height: 200vh;
+    width: 200vh;
+}
